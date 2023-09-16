@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\h">
+      <UniqueIdentifier>{4d1ae4e7-4655-4946-a686-bd970b64b5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cpp">
+      <UniqueIdentifier>{067874ff-e355-41d3-99c9-8d0430e53df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CalculatorFOV.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConsumableGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConsumableKey.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConsumableWand.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ContainerGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawableGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EquipmentGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FieldObjectGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FloorGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FurnitureGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HumanoidGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ItemGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ItemMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LayoutGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LayoutMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LevelMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LyingGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NameableGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StandingGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrapGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrapMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WallGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaterGeneric.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameFieldUI.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InventoryUI.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainMenuUI.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FieldObjectMap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FieldObjectVector2D.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FieldObjectMultimap.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrapDamaging.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrapBlinding.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ButtonCluster.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapGenerationThread.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadingScreenUI.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextLabel.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConsumableApple.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenericUI.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Alignable.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextArea.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera2D.cpp">
+      <Filter>src\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CalculatorFOV.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConsumableGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConsumableKey.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConsumableWand.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ContainerGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DrawableGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FieldObjectGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EquipmentGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ItemMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ItemGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HumanoidGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FurnitureGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FloorGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LayoutGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LayoutMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LevelMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LyingGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WaterGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WallGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utility.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnitMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnitGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrapMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrapGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StandingGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NameableGeneric.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\define.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainMenuUI.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InventoryUI.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameFieldUI.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera2D.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FieldObjectMap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FieldObjectMultimap.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FieldObjectVector2D.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrapDamaging.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrapBlinding.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ButtonCluster.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MapGenerationThread.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LoadingScreenUI.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextLabel.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConsumableApple.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GenericUI.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Alignable.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextArea.h">
+      <Filter>src\h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
